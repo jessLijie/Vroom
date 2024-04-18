@@ -10,11 +10,12 @@ php artisan migrate:refresh (back to default settings)
 ```
 >All customers are ineligible by default
 
-### Login to Admin account first
+### !! Login to Admin account first
 ```
 Email : admin@gmail.com
 Paaword : user123
 ```
+### Then
 
 > To login to other users account
 ```
