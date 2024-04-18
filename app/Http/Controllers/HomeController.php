@@ -15,6 +15,7 @@ class HomeController extends Controller
             if ($register->status == 'approved' && $register->downpayment >= 10) {
                 if ($eligibleCount < 10) {
                     $register->eligibility = 'eligible';
+                    $register->loanamount = 200000*(100-$register->downpayment)/100;
                     $eligibleCount++;
                 } else {
                     $register->eligibility = 'ineligible';
@@ -23,6 +24,7 @@ class HomeController extends Controller
                 $register->eligibility = 'ineligible';
             }
             $register->save();
+
         }
 
         return view('home', compact('registration'));

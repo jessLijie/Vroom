@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel 10 Custom Login and Registration</title>
+    <title>CapBay Vroom</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                        {{-- <a class="nav-link active" aria-current="page" href="#">Profile</a> --}}
                     </li>
                 </ul>
                 <form action="{{ route('logout') }}" method="POST" class="d-flex" role="search">
                     @csrf
                     @method('DELETE')
-                    <button class="btn btn-secondary" type="submit">Logout</button>
+                    <button class="btn btn-primary" type="submit">Logout</button>
                 </form>
             </div>
         </div>
@@ -126,7 +126,7 @@
 
             </div>
             <div class="modal-body">
-              Are you sure to delete your registration for CapBay Vroom's Test Drive ?
+              Are you sure to cancel your registration for CapBay Vroom's Test Drive ?
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

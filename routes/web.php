@@ -15,7 +15,7 @@ use App\Http\Controllers\CustomerController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Route::group(['middleware' => 'guest'], function () {
