@@ -155,7 +155,7 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="loanamount" class="form-label">Loan Amount</label>
+                                <label for="loanamount" class="form-label">Loan Amount(RM)</label>
                                 <input type="text" name="loanamount" class="form-control" id="mobile"
                                     @if ($register->loanamount == null) value="N/A"
                             @else
