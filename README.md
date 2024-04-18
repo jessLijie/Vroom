@@ -6,6 +6,7 @@ git clone https://github.com/jessLijie/Vroom.git
 git pull
 php artisan migrate
 php artisan serve
+php artisan migrate:refresh (back to default settings)
 ```
 >All customers are ineligible by default
 

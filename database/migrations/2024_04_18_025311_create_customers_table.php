@@ -24,7 +24,7 @@ class CreateCustomersTable extends Migration
         DB::table('customers')->insert([
             ['name' => 'Customer A', 'mobile' => '0123456789', 'userid' => 2, 'status' => 'approved', 'downpayment' => 20, 'eligibility' => 'ineligible'],
             ['name' => 'Customer B', 'mobile' => '0153468954', 'userid' => 3, 'status' => 'rejected', 'downpayment' => null, 'eligibility' => 'ineligible'],
-            ['name' => 'Customer M', 'mobile' => '0124586542', 'userid' => 4, 'status' => 'approved', 'downpayment' => null, 'eligibility' => 'ineligible'],
+            ['name' => 'Customer M', 'mobile' => '0124586542', 'userid' => 4, 'status' => 'approved', 'downpayment' => 10, 'eligibility' => 'ineligible'],
             ['name' => 'Customer D', 'mobile' => '0123875487', 'userid' => 5, 'status' => 'approved', 'downpayment' => 15, 'eligibility' => 'ineligible'],
             ['name' => 'Customer F', 'mobile' => '0123427759', 'userid' => 7, 'status' => 'approved', 'downpayment' => 10, 'eligibility' => 'ineligible'],
             ['name' => 'Customer G', 'mobile' => '01143456789', 'userid' => 8, 'status' => 'approved', 'downpayment' => 10, 'eligibility' => 'ineligible'],
