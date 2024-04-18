@@ -11,8 +11,11 @@ php artisan serve
 ## SQL Insert Satement 
 
 > To login :
+
 > email(password)
+
 > admin@gmail.com(user123)
+
 > userx@gmail.com(user123), x={1...20}
 
 ### Run below statements to insert into database
