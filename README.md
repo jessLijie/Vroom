@@ -5,6 +5,7 @@
 git clone https://github.com/jessLijie/Vroom.git
 git pull
 php artisan migrate
+php artisan serve
 ```
 
 ## SQL Insert Satement 
