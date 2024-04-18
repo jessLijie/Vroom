@@ -10,7 +10,12 @@ php artisan serve
 
 ## SQL Insert Satement 
 
-> Users
+> To login :
+> email(password)
+> admin@gmail.com(user123)
+> userx@gmail.com(user123), x={1...20}
+
+### Run below statements to insert into database
 ```
 INSERT INTO capbayvroom.users (username, role, email, password) VALUES
 
@@ -56,8 +61,6 @@ INSERT INTO capbayvroom.users (username, role, email, password) VALUES
 
 ('User 20', 'customer', 'user20@gmail.com', '$2y$10$D3K9X0XSjxJb7S9t9U69F.oyBQfX1Pwsg2uoRz6XLpxpF01K/d2VW');
 ```
-
-> Customers
 ```
 INSERT INTO capbayvroom.customers (name, mobile, userid, status, eligibility) VALUES
 
