@@ -7,7 +7,9 @@ git pull
 php artisan migrate
 ```
 
-## SQL Insert Satement for Users
+## SQL Insert Satement 
+
+> Users
 ```
 INSERT INTO capbayvroom.users (username, role, email, password) VALUES
 
@@ -54,6 +56,7 @@ INSERT INTO capbayvroom.users (username, role, email, password) VALUES
 ('User 20', 'customer', 'user20@gmail.com', '$2y$10$D3K9X0XSjxJb7S9t9U69F.oyBQfX1Pwsg2uoRz6XLpxpF01K/d2VW');
 ```
 
+> Customers
 ```
 INSERT INTO capbayvroom.customers (name, mobile, userid, status, eligibility) VALUES
 
@@ -87,7 +90,6 @@ INSERT INTO capbayvroom.customers (name, mobile, userid, status, eligibility) VA
 
 ('Customer S', '0143456780', 20, 'pending', 'ineligible');
 ```
-
 ```
 UPDATE capbayrooom.customers SET status = 'approved', downpayment = 20 where userid = 2
 
