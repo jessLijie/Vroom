@@ -8,6 +8,10 @@ php artisan migrate
 php artisan serve
 php artisan migrate:refresh (back to default settings)
 ```
+```
+DB Name = capbayvroom
+```
+
 >All customers are ineligible by default
 
 ### !! Login to Admin account first
@@ -22,3 +26,4 @@ Paaword : user123
 Email : userx@gmail.com, x={1...20}
 Password : user123
 ```
+
